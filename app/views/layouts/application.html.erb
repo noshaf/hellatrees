@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hella Trees</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "bootstrap" %>
+  <%= stylesheet_link_tag    "bootstrap-responsive" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "bootstrap" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container">
+	<div class="row name_header">
+		<div class="span3">
+			<h1>Hella Trees</h1>
+		</div>
+		<div class="span3 top_link">
+			<h4><a href="/site/home">Home</a></h4>
+		</div>
+		<div class="span3 top_link">
+			<h4><a href="/site/about_us">About Us</a></h4>
+		</div>
+		<div class="span3 top_link">
+			<h4>Buy t-shirt</h4>
+		</div>
+	</div>
+<%= yield %>
+</div>
+
+</body>
+</html>

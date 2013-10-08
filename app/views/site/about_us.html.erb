@@ -1,0 +1,18 @@
+<div class="row">
+	<div class="span12" style="text-align:center">
+		<span class="the_tree"><%= image_tag("the_tree.jpg") %></span>
+	</div>
+	<div class="span12" style="text-align:center">
+		<h1>We <3 trees. We sell t-shirts.</h1>
+	</div>
+</div>
+
+<script>
+	$('.the_tree').hover(
+		function(){ 
+			$('body').css('background', 'grey');
+		}, function() {
+			$('body').css('background', 'white');
+		}
+	);
+</script>

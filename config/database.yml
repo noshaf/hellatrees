@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  database: development
+  username: 
+  password: 
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: test
+  username: 
+  password: 
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: radiant_live
+  username: 
+  password: 
+  host: localhost
